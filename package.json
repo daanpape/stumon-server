@@ -1,0 +1,22 @@
+{
+  "name": "stumon-server",
+  "version": "1.0.0",
+  "description": "Student monitor server",
+  "main": "stumon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dptechnics/stumon-server.git"
+  },
+  "author": "Daan Pape",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dptechnics/stumon-server/issues"
+  },
+  "homepage": "https://github.com/dptechnics/stumon-server#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

@@ -7,10 +7,10 @@
 var express = require('express');
 var app = express();
 
-app.get('/', function (req, res) {
+app.get('/userapi/', function (req, res) {
   res.send('Hello World!');
 });
 
 app.listen(3000, function () {
-  console.log('StuMON server');
+  console.log('Stumon server started listening on port 3000');
 });
